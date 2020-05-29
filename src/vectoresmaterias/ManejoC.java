@@ -19,7 +19,8 @@ public class ManejoC {
      */
     public static void main(String[] args) throws Exception {
         ManejoCadena m = new ManejoCadena();
-//        m.contarFrases("El gato es feliz con su dueño.");
+        m.contarFrases(" El gato es feliz con su dueño. Y tambien el perro es feliz con su dueño.");
+        
 //        m.copiarAlFinal("El gato es feliz con su dueño.","el perro por su parte no.");
 //        m.copiarCadena("El gato es feliz con su dueño.","el perro por su parte no.");      
 //        m.separarFrases("El gato es feliz con su dueño.");

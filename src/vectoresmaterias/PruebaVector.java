@@ -18,11 +18,13 @@ public class PruebaVector {
      * @throws java.lang.Exception
      */
     public static void main(String[] args) throws Exception {
-        Vector v = new Vector(23);
-
-        System.out.println(v.toString());
-        v.sortVector();
-        System.out.println(v.toString());
+//        Vector v = new Vector(23);
+//
+//        System.out.println(v.toString());
+//        v.sortVector();
+//        System.out.println(v.toString());
+            int numero = 123456789;
+            System.out.println(numero/1000000);
     }
 
 }

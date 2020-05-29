@@ -73,7 +73,7 @@ public class ManejoCadena {
 
     public Boolean esOracionPalindroma(String oracion) {
         char[] frase = oracion.toCharArray();
-        Boolean esPalindroma = false;
+       
         for (int i = 0, j = frase.length - 1; i < frase.length; i++, j--) {
 
             if (frase[j] != frase[i]) {

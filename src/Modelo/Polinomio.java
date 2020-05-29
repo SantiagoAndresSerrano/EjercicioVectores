@@ -46,6 +46,16 @@ public class Polinomio {
     
     }
     
+    public Termino getMonomio(int i){
+    
+        for (int j = 0; j < this.polinomio.length; j++) {
+            if(i==j)
+                return polinomio[i];
+        }
+        
+        return null;
+    }
+    
     public void getDerivada(){
     
         for (Termino polinomio1 : polinomio) 
